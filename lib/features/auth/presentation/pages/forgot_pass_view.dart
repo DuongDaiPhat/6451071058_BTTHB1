@@ -1,8 +1,8 @@
-import 'package:btthb1/utils/app_colors.dart';
-import 'package:btthb1/widgets/custom_button.dart';
-import 'package:btthb1/widgets/custom_text_field.dart';
+import 'package:btthb1/core/theme/app_colors.dart';
+import 'package:btthb1/shared/widgets/custom_button.dart';
+import 'package:btthb1/shared/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
-import '../../app/app_route.dart';
+import 'package:btthb1/core/routes/app_route.dart';
 
 class ForgotPasswordView extends StatelessWidget {
   const ForgotPasswordView({Key? key}) : super(key: key);
@@ -29,7 +29,7 @@ class ForgotPasswordView extends StatelessWidget {
               ),
               const SizedBox(height: 30),
               // Minh họa Illustration ở đây
-              Image.asset('lib/assets/images/forgotPassLogo.png', height: 120),
+              Image.asset('assets/images/forgotPassLogo.png', height: 120),
               const SizedBox(height: 30),
               const CustomTextField(
                 label: 'Email',

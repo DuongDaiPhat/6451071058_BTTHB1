@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../utils/app_colors.dart';
-import '../../widgets/custom_button.dart';
-import '../../app/app_route.dart';
+import 'package:btthb1/core/theme/app_colors.dart';
+import 'package:btthb1/shared/widgets/custom_button.dart';
+import 'package:btthb1/core/routes/app_route.dart';
 
 class CheckEmailView extends StatelessWidget {
   const CheckEmailView({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class CheckEmailView extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 40),
-            Image.asset('lib/assets/images/checkyouremail.png', height: 150),
+            Image.asset('assets/images/checkyouremail.png', height: 150),
             const SizedBox(height: 40),
             CustomButton(
               text: 'OPEN YOUR EMAIL',

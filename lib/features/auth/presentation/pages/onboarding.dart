@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../utils/app_colors.dart';
-import '../../app/app_route.dart';
+import 'package:btthb1/core/theme/app_colors.dart';
+import 'package:btthb1/core/routes/app_route.dart';
 
 class OnboardingView extends StatelessWidget {
   const OnboardingView({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class OnboardingView extends StatelessWidget {
               const Spacer(),
               Center(
                 // Thay bằng Image.asset minh họa onboarding
-                child: Image.asset('lib/assets/images/dreamJobPage.png', height: 300),
+                child: Image.asset('assets/images/dreamJobPage.png', height: 300),
               ),
               const Spacer(),
               RichText(

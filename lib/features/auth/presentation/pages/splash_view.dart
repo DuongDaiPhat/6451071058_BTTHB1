@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../utils/app_colors.dart';
-import '../../app/app_route.dart';
+import 'package:btthb1/core/theme/app_colors.dart';
+import 'package:btthb1/core/routes/app_route.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);

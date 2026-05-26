@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import '../utils/app_colors.dart';
+import 'package:btthb1/core/theme/app_colors.dart';
 
 class CustomTextField extends StatelessWidget {
   final String label;
   final String hintText;
   final bool isPassword;
   final Widget? trailingIcon;
+  final TextEditingController? controller;
 
   const CustomTextField({
     Key? key,
@@ -13,6 +14,7 @@ class CustomTextField extends StatelessWidget {
     required this.hintText,
     this.isPassword = false,
     this.trailingIcon,
+    this.controller,
   }) : super(key: key);
 
   @override
@@ -42,6 +44,7 @@ class CustomTextField extends StatelessWidget {
             ],
           ),
           child: TextField(
+            controller: controller,
             obscureText: isPassword,
             decoration: InputDecoration(
               hintText: hintText,

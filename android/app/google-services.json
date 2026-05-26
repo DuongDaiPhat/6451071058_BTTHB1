@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840985616453",
+    "project_id": "btthb1",
+    "storage_bucket": "btthb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840985616453:android:a9f051be7cda99cb81c32c",
+        "android_client_info": {
+          "package_name": "com.example.btthb1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbD-Jnwxv3tOHTp73TZ8pwhhLscDPetGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

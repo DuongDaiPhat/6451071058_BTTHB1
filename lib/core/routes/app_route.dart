@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import '../views/Auth/splash_view.dart';
-import '../views/Auth/onboarding.dart';
-import '../views/Auth/login_view.dart';
-import '../views/Auth/sign_up_view.dart';
-import '../views/Auth/forgot_pass_view.dart';
-import '../views/Auth/check_email.dart';
-import '../views/Auth/success_view.dart';
+import 'package:btthb1/features/auth/presentation/pages/splash_view.dart';
+import 'package:btthb1/features/auth/presentation/pages/onboarding.dart';
+import 'package:btthb1/features/auth/presentation/pages/login_view.dart';
+import 'package:btthb1/features/auth/presentation/pages/sign_up_view.dart';
+import 'package:btthb1/features/auth/presentation/pages/forgot_pass_view.dart';
+import 'package:btthb1/features/auth/presentation/pages/check_email.dart';
+import 'package:btthb1/features/auth/presentation/pages/success_view.dart';
 
 class AppRoutes {
   static const String splash = '/';
